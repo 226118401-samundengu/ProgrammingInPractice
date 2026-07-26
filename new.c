@@ -4,7 +4,7 @@
 int main() {
     char characterName[20];  // 2. Added 'char' keyword
 
-    printf("Enter anime character name \n");
+    printf("Enter character name \n");
     fgets(characterName, sizeof(characterName), stdin);
 
     // 3. Fixed typos: strcspn and corrected the ending bracket ')]'
